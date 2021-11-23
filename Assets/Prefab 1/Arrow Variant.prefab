@@ -54,6 +54,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
+      propertyPath: m_TagString
+      value: Arrow
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -72,19 +76,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.16852094
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.16852087
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.68673193
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6867319
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -96,7 +100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -152.425
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 1df37a254924a7444909838c4af7e44f, type: 3}
       propertyPath: m_Materials.Array.data[0]

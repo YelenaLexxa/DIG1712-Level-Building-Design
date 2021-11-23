@@ -20,6 +20,7 @@ TagManager:
   - ScelSix
   - ScelFive
   - PatrollSpotsSecond
+  - Arrow
   layers:
   - Default
   - TransparentFX

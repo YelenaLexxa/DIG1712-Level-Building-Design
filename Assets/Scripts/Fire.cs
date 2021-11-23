@@ -24,7 +24,7 @@ public class Fire : MonoBehaviour
             Vector3 point = new Vector3(cameraPlayer.pixelWidth / 2, cameraPlayer.pixelHeight / 2, 0);
             Ray ray = cameraPlayer.ScreenPointToRay(point);
 
-            GameObject p = Instantiate(myPrefab, transform.position + transform.forward, Quaternion.identity);
+            GameObject p = Instantiate(myPrefab, transform.position, transform.rotation);
             p.transform.position = ray.origin;
             p.GetComponent<Rigidbody>().AddForce(ray.direction * 1000);
            
